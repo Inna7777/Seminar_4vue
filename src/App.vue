@@ -1,17 +1,30 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+       <ProductDetails/>
+        <NewComponent text='12'/>
+        <PictureCompon/>
+        <AutoficationComp/>
+        <BusketComp/>
+     </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ProductDetails from './components/ProductDetails.vue'
+import NewComponent from './components/NewComponent.vue'
+import PictureCompon from './components/PictureCompon.vue'
+import AutoficationComp from './components/AutoficationComp.vue'
+import BusketComp from './components/BusketComp.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    ProductDetails,
+    NewComponent,
+    PictureCompon,
+    AutoficationComp,
+    BusketComp
+    // CreditComponent,
+    // CalculationCredit
   }
 }
 </script>
